@@ -17,9 +17,13 @@ function beginQuiz() {
     //hide start div / start page
     startScreen.setAttribute("class", "hide");
     //unhide questions div
-    //Show the first question
+    questionsDiv.removeAttribute("class");
+    // Call a function to Show the first question
+    showQuestion();
+}
 
-
+function showQuestion(){
+    //to be compelted
 }
 
 function oneSecFunction() {
