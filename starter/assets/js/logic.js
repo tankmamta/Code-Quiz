@@ -2,13 +2,15 @@ let startbtn = document.querySelector("#start");
 let startScreen = document.getElementById("start-screen");
 let questionsDiv = document.getElementById("questions");
 let viewhighscore = document.getElementsByTagName("a");
+let questionTitle = document.getElementById("question-title");
 
 startbtn.addEventListener("click", beginQuiz);
 
 let timeRemaining = 160;
 let timeEl = document.getElementById("time");
 let timerId;
-
+let index = 0;
+let currentQuestion;
 function beginQuiz() {
    
      // start timer
@@ -24,6 +26,8 @@ function beginQuiz() {
 
 function showQuestion(){
     //to be compelted
+    currentQuestion = questions[index];
+    questionTitle.textContent = currentQuestion.question;
 }
 
 function oneSecFunction() {
