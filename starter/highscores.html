@@ -18,6 +18,19 @@
       <button id="clear">Clear Highscores</button>
     </div>
 
-    <script src="./assets/js/scores.js"></script>
+    <script>
+      let topScores =
+        JSON.parse(window.localStorage.getItem("topScores")) || [];
+      topScores.sort(function (p, q) {
+        return q.score - p.score;
+      });
+      for (let i = 0; i < topScores.length; i++) {
+        let li = document.createElement("li");
+        li.textContent = topScores[i].initials + " => " + topScores[i].score;
+
+        let ol = document.getElementById("highscores");
+        ol.appendChild(li);
+      }
+    </script>
   </body>
 </html>
