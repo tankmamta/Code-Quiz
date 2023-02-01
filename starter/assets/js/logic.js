@@ -85,6 +85,9 @@ function oneSecFunction() {
         clearInterval(timerId); 
         let endScreen = document.getElementById("end-screen");
         endScreen.removeAttribute("class");
+
+        let finalScore = document.getElementById("final-score");
+        finalScore.textContent = timeRemaining;
     }
 
     // 
