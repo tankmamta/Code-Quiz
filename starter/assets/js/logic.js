@@ -88,6 +88,7 @@ function oneSecFunction() {
 
         let finalScore = document.getElementById("final-score");
         finalScore.textContent = timeRemaining;
+        questionsDiv.setAttribute("class", "hide");
     }
 
-    // 
+    // \\\
