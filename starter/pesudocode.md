@@ -35,7 +35,7 @@ a) <javascript>  b) <scripting> c) <script> d) <js>
 
 2. Where is the correct place to insert a JavaScript?
 
-a) THe <body> scetion
+a) The <body> scetion
 b) The <head> section
 c) Both the <head> and the <body> Section are correct
 

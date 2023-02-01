@@ -1,27 +1,27 @@
 let questions = [
     {
-        question: "Q1",
-        choices: ["C1", "C2", "C3", "C4"],
-        correctAnswer: "C3"
+        question: "Inside which HTML element do we put the JavaScript?",
+        choices: ["<javascript>", "<scripting>", "<script>", "<js>"],
+        correctAnswer: "<script>"
     },
     {
-        question: "Q2",
-        choices: ["C1", "C2", "C3", "C4"],
-        correctAnswer: "C1"
+        question: "Where is the correct place to insert a JavaScript?",
+        choices: ["The <body> scetion", "The <head> section", "Both the <head> and the <body> Section are correct"],
+        correctAnswer: "Both the <head> and the <body> Section are correct"
     },
     {
-        question: "Q3",
-        choices: ["C1", "C2", "C3", "C4"],
-        correctAnswer: "C4"
+        question: "How do you call a function named 'myFunction'?",
+        choices: ["myFunction()", "call myFunction()", "call function myFunction()"],
+        correctAnswer: "myFunction()"
     },
     {
-        question: "Q4",
-        choices: ["C1", "C2", "C3", "C4"],
-        correctAnswer: "C2"
+        question: "How can you add a comment in a JavaScript?",
+        choices: ["<!--This is a comment>", "This is a comment", "//This is a comment"],
+        correctAnswer: "//This is a comment"
     },
     {
-        question: "Q5",
-        choices: ["C1", "C2", "C3", "C4"],
-        correctAnswer: "C3"
+        question: "JavaScript is the same as Java.",
+        choices: [true, false],
+        correctAnswer: false
     },
 ];
