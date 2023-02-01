@@ -72,9 +72,7 @@ function handleAnswerChoice(e){
         showQuestion();
     }
 }
-function endQuiz () {
-    // to be completed
-}
+
 function oneSecFunction() {
     timeRemaining -- ;
     timeEl.textContent = timeRemaining;
@@ -84,6 +82,9 @@ function oneSecFunction() {
     }
     function endQuiz() {
         //to be completed
+        clearInterval(timerId); 
+        let endScreen = document.getElementById("end-screen");
+        endScreen.removeAttribute("class");
     }
 
     // 
