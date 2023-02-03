@@ -21,7 +21,7 @@ let questions = [
     },
     {
         question: "JavaScript is the same as Java.",
-        choices: [true, false],
-        correctAnswer: false
+        choices: ["true", "false"],
+        correctAnswer: "false"
     },
 ];
